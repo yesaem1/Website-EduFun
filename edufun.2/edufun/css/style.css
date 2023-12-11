@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  width: 1980px;
+}
+body img {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.container {
+  width: 1440px;
+}
+/* navbar style */
+.navbar {
+  z-index: 3;
+  box-shadow: 12px 4px 30px 0px rgba(23, 16, 16, 0.25);
+}
+.navbar-wrapper {
+  margin: auto;
+}
+.nav-link {
+  font-size: 28px;
+  color: #ff7d39;
+}
+.navbar .active {
+  font-weight: 700;
+}
+.btn-pmry {
+  font-size: 22px;
+  width: 180px;
+  height: 50px;
+  color: white;
+  border-radius: 10px;
+  background: #ff7d39;
+  border: none;
+}
+.btn-scdry {
+  font-size: 22px;
+  width: 180px;
+  height: 50px;
+  color: #ff7d39;
+  border-radius: 10px;
+  background: white;
+  border: none;
+}
+
+/* hero section */
+#hero {
+}
+.hero-wrapper {
+  margin: auto;
+}
+.hero-wrapper .col-hero {
+  display: flex;
+  margin-top: 200px;
+}
+.hero-wrapper .row {
+  display: block;
+  padding: 200px 100px;
+  text-align: center;
+}
+.ket-hero {
+  width: 540px;
+  height: 183px;
+}
+.hero-wrapper .row h1 {
+  color: #ff7d39;
+  font-family: Inter;
+  font-size: 44px;
+  font-weight: 700;
+  padding-bottom: 50px;
+}
+.hero-wrapper .row .btn-lg {
+  font-size: 22px;
+  width: 180px;
+  height: 50px;
+  color: white;
+  border-radius: 10px;
+  background: #ff7d39;
+  border: none;
+  display: flex;
+  margin-left: 195px;
+  transition: transform 0.3s ease;
+}
+.btn-lg:hover {
+  transform: scale(1.05);
+}
+.btn-lg p {
+  padding-top: 5px;
+  padding-left: 20px;
+}
+.btn-lg i {
+  font-size: 22px;
+  padding-top: 10px;
+}
+/* About Us */
+.au-wrapper {
+  margin: auto;
+}
+.heading-au h1 {
+  color: #ff7d39;
+  font-size: 65px;
+  font-weight: 700;
+  margin-top: 200px;
+  padding: 50px 0px;
+}
+.isi-au {
+  display: flex;
+  justify-content: space-between;
+}
+.isi-au .col1 {
+  background: #ffe4dd;
+  border-radius: 100px 0px 100px 0px;
+}
+.isi-au .col1 .judul {
+  color: #ff7d39;
+  font-size: 35px;
+  font-weight: 700;
+  padding: 50px;
+}
+.isi-au .col1 .isi {
+  color: #ff7d39;
+  font-size: 30px;
+  text-align: justify;
+  width: 700px;
+  padding: 0px 50px;
+}
+.isi-au .col2 {
+  margin-left: 200px;
+}
+/* service */
+.service-wrapper {
+  margin: auto;
+}
+.service-wrapper .garis {
+  margin-top: 100px;
+}
+.service {
+  padding-top: 300px;
+  display: flex;
+  justify-content: space-between;
+  height: 840px;
+}
+.col2-srvc .judul {
+  padding-bottom: 30px;
+  color: #ff7d39;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+}
+.col2-srvc .isi {
+  padding-top: 20px;
+  margin-left: 90px;
+}
+.col2-srvc .isi .i1 {
+  display: flex;
+  padding: 15px;
+  margin: 10px 0px;
+  align-items: center;
+  background: #ff8d52;
+  transition: transform 0.3s ease;
+  border-radius: 100px 100px 100px 100px;
+}
+.col2-srvc .isi .i1:hover {
+  transform: scale(1.05);
+}
+.col2-srvc .isi .i1 p {
+  padding-left: 20px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 28px;
+}
+
+/*footer*/
+.footer-wrapper {
+  margin: auto;
+}
+.footer {
+  background: #ff7d39;
+  padding-top: 50px;
+  height: 300px;
+  margin: 0;
+}
+.footer .kolom {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.footer .kolom h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.footer .kolom .cu {
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+}
+.footer .kolom .cu p {
+  margin-left: 10px;
+}
+.kolom .kol3 {
+  display: block;
+}
+.kol3 input {
+  width: 400px;
+  height: 70px;
+  border-radius: 20px;
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: none;
+}
+.kol3 button {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  width: 142px;
+  height: 56px;
+  border-radius: 15px;
+  border: 3px solid #fff;
+  background: #ff7d39;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+/*bottom*/
+.bottom {
+  background: #ff7d39;
+  text-align: center;
+  color: #fff;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 600;
+  align-items: center;
+}
+/* POPUP */
+.popup {
+  width: 574px;
+  height: 582px;
+  border-radius: 20px;
+  background: #ff7d39;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  padding: 50px;
+  color: white;
+  font-size: 36px;
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+.open-popup {
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  backdrop-filter: blur(5px);
+}
+.popup .x {
+  text-align: right;
+  border: none;
+  color: white;
+  background-color: #ff7d39;
+}
+.popup .btn-popup {
+  display: block;
+  padding: 50px;
+}
+.popup .masuk {
+  color: #ff7d39;
+  font-size: 20px;
+  font-weight: 700;
+  width: 362px;
+  height: 84px;
+  border-radius: 15px;
+  border: 3px solid #ff7d39;
+  background: white;
+}
+.popup .daftar {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  width: 362px;
+  height: 84px;
+  border-radius: 15px;
+  border: 3px solid #fff;
+  background: #ff7d39;
+  margin-top: 50px;
+}
+.login {
+  display: flex;
+  margin: 75px;
+}
+.kolom-login1 {
+  display: block;
+  background-color: white;
+  height: 920px;
+  width: 900px;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-radius: 20px 0px 0px 20px;
+}
+.kolom-login2 {
+  padding-top: 70px;
+  text-align: center;
+  width: 900px;
+  height: 920px;
+  border-radius: 0px 20px 20px 0px;
+  background: #fe8c08;
+  color: white;
+}
+.kolom-login2 .sd {
+  font-size: 32px;
+}
+.kolom-login2 h1 {
+  font-size: 52px;
+  font-weight: 700;
+}
+.kolom-login2 .ket {
+  color: #e4e4e4;
+  font-size: 16px;
+}
+.kolom-login2 .email,
+.kolom-login2 .password {
+  text-align: left;
+  margin-left: 150px;
+  margin-bottom: 20px;
+}
+.kolom-login2 .email input,
+.kolom-login2 .password input {
+  width: 586px;
+  height: 72px;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+  border: none;
+}
+.kolom-login2 .email p,
+.kolom-login2 .password p {
+  font-size: 20px;
+  font-weight: 700;
+}
+.kolom-login2 .btn-scdry {
+  margin-top: 60px;
+}
+.btn-login p {
+  font-size: 16px;
+}
+.btn-login span {
+  font-weight: 700;
+  padding-left: 5px;
+}
+.linelogin {
+  display: flex;
+  align-items: center;
+  padding-left: 160px;
+}
+.linelogin img {
+  height: 100%;
+  padding: 0px 10px;
+}
+.linelogin p {
+  padding-top: 18px;
+}
+.g3 img {
+  border-radius: 50px;
+  margin: 0px 10px;
+  padding: 10px;
+  background-color: #e4e4e4;
+}

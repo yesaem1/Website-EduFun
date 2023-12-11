@@ -1,0 +1,111 @@
+body {
+  font-family: "Inter", sans-serif;
+  width: 1980px;
+}
+.container {
+  width: 1440px;
+}
+/* LOGIN */
+a {
+  color: white;
+}
+.btn-login .Daftar b {
+  color: #fff;
+}
+.login {
+  display: flex;
+  margin: 60px 70px;
+}
+.kolom-login1 {
+  display: block;
+  background-color: white;
+  width: 650px;
+  height: 900px;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-radius: 20px 0px 0px 20px;
+}
+.kolom-login1 .bl {
+  padding-top: 60px;
+  width: 644px;
+  height: 637px;
+}
+.kolom-login2 {
+  padding-top: 31px;
+  line-height: 5px;
+  text-align: center;
+  width: 650px;
+  height: 900px;
+  border-radius: 0px 20px 20px 0px;
+  background: #fe8c08;
+  color: white;
+}
+.kolom-login2 .sd {
+  font-size: 32px;
+}
+.kolom-login2 h1 {
+  font-size: 52px;
+  font-weight: 700;
+}
+.kolom-login2 .ket {
+  color: #e4e4e4;
+  font-size: 16px;
+  line-height: normal;
+}
+.kolom-login2 .email,
+.kolom-login2 .password {
+  text-align: left;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+.kolom-login2 .email input,
+.kolom-login2 .password input {
+  width: 450px;
+  height: 72px;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+  border: none;
+  padding: 10px;
+}
+.kolom-login2 .email p,
+.kolom-login2 .password p {
+  font-size: 20px;
+  font-weight: 700;
+}
+.btn-login p {
+  font-size: 16px;
+}
+.btn-login span {
+  font-weight: 700;
+  padding-left: 5px;
+}
+.linelogin {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+.linelogin img {
+  height: 100%;
+  padding: 0px 10px;
+}
+.linelogin p {
+  padding-top: 18px;
+}
+.g3 img {
+  border-radius: 50px;
+  margin: 0px 10px;
+  padding: 10px;
+  background-color: #e4e4e4;
+}
+.btn-scdry {
+  font-size: 22px;
+  width: 180px;
+  height: 50px;
+  color: #ff7d39;
+  border-radius: 10px;
+  background: white;
+  border: none;
+  margin-top: 36px;
+  margin-bottom: 9px;
+}
